@@ -32,7 +32,6 @@ queue_t *q_new()
 	q->head = NULL;
 	q->tail = NULL;
 	q->size = 0;
-	/* end 01 */
 	return q;
 }
 
